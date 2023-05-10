@@ -1,0 +1,76 @@
+.containero {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:99% !important;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .containero:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .imageglobal{
+    width: 450px;
+  } 
+
+  .h2{
+        position: relative;
+        font-family: Impact, sans-serif;
+        font-size:60px !important;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #4b1ac6, #720d84, #540505);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: 
+        pulse 3s ease infinite alternate, 
+        nudge 5s linear infinite alternate;
+        background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+       /* -webkit-animation: animate 10s infinite;*/
+    
+        text-align: center;
+       
+          font-weight: bold;
+           margin-top: 100px;
+           margin-bottom: 100px;
+}
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      }
+  

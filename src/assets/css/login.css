@@ -1,0 +1,79 @@
+.form-container {
+    margin: 150px 0 40px 0px;
+    padding: 25px 20px;
+    width: 500px;
+    background: rgba(51, 50, 50, 0.725);
+    border-radius: 10px;
+    -webkit-box-shadow: -8px 6px 25px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: -8px 6px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px 6px 25px 0px rgb(0 0 0 / 75%);
+}
+
+.bg {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(https://alis.alberta.ca/media/699227/work-search-tools-desk-istock-820850710.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+.form-container {
+color:white
+}
+
+sup {
+    color: red;
+}
+
+sup {
+    top: -0.5em;
+}
+
+#btnn {
+    
+    /* background-color: green; */
+    background: #1ed085;
+    border-radius: 5px;
+    color: white !important;
+    margin-left: 200px;
+    
+    
+}
+
+ /* p{
+
+
+    text-align: center !important;
+    color:black !important;
+
+
+
+} */
+.bc{
+    background-color: rgb(241, 240, 240);
+}
+ .form-group>label{
+
+    margin:0 auto !important;
+    font-size: 15px !important;
+ }
+ .form-group>input{
+
+
+   /* width: 300px !important;*/
+    margin:0 auto;
+    
+ }
+ a{
+    color: yellow;
+ }
